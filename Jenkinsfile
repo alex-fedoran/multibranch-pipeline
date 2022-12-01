@@ -1,4 +1,4 @@
-pipeline {
+car {
     agent { label 'agent1' }
     stages {
         stage('Build Docker image') {
